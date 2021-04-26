@@ -1,0 +1,75 @@
+body
+{
+  font-family: arial;
+  margin: 0;
+  background-image: url(Basketball.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1, h2
+{
+  color: white;
+
+}
+
+header
+{
+background: #3385FF;
+color: white;
+padding: 15px 15px;
+}
+
+p
+{
+  margin-left: 0;
+  margin-right: 1350;
+  padding: 10px 0 10px 10px;
+  background-color: red;
+  color: white;
+  font-family: arial
+  font-size: 22pt;
+}
+
+p.KU
+{
+  margin-left: 0;
+  margin-right: 1500;
+  background-color: white;
+  color: red;
+  font-family: arial
+  font-size: 22pt;
+
+}
+
+.Col
+{
+  background: #666;
+  color: white;
+  padding: 10px 0.5%;
+  margin: 0.5%;
+  /* Makes column elements larger based off of size of display window; */
+  width: 31%;
+  /* Moves elements onto one line, reading left from right; */
+  float: left;
+  border-radius: 5px;
+}
+
+header
+{
+background: #3385FF;
+color: white;
+padding: 15px 15px;
+}
+
+a
+{
+background-color: red;
+color: blue;
+}
+a:hover
+{
+background-color: blue;
+color: red;
+}

@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <link href  = "style.css" rel = "stylesheet" type = "text/css"/>
+    <script type = "text/javascript"
+      src = "formChecker.js">
+    </script>
+    <title> Exercise 3 </title>
+</head>
+<body>
+<header>
+    <h1>
+        Exercise 3:  Web Store
+    </h1>
+    <h2>
+       Chet in the Beanstock (Beanpole Jeans Website)
+    </h2>
+    <img src = "Chet-Holmgren.jpg" id = "image" height = "250" width = "250">
+  <br> <br>
+</header>
+  <br>
+    <body>
+<form>
+
+      Username:<br> <input id ="Username" name="username" type = "password">
+
+    <br> <br>
+
+      Password:<br> <input id ="pass" name="pass" type = "password">
+
+    <br> <br>
+
+      <p>Purchase Options:</p>
+          <form action="customerBackend.php" onsubmit = return certify()" method="post"> -->
+            <input type="checkbox" id="beanpole" name="items" value="beanpole">
+            <label for="vehicle1"> $39) Beanpole Jeans</label><br>
+            <input type="checkbox" id="xBeanpole" name="items" value="xBeanpole">
+            <label for="vehicle2"> $39) Extra Beanpole Jeans</label><br>
+            <input type="checkbox" id="xBeanpole" name="items" value="xxBeanpole">
+            <label for="vehicle3"> $39) Extra Extra Beanpole Jeans</label><br><br>
+
+       <p>Quantity:</p>  
+	<input type="number" id="item1" min="0" name="galaxy" class="textbox"/>
+
+   <br> <br>
+   
+
+    <p>Shipping Options:</p>
+      <input type="radio" id="sevenDay" name="shipping" value="sevenDay">
+      <label for="sevenDay">7 Days (Free)</label><br>
+
+      <input type="radio" id="oneDay" name="shipping" value="oneDay">
+      <label for="oneDay">Over Night ($50.00)</label><br>
+
+      <input type="radio" id="threeDay" name="shipping" value="threeDay">
+      <label for="threeDay">Three Days ($5.00)</label><br>
+    
+    <br><br>
+
+          <button onclick="Submit()">
+          <b>Submit</b>
+          </button>
+
+          <button onclick="Reset()">
+          <b>Reset</b>
+          </button>
+
+<input type="submit" value="Submit" class="buttons">
+<input type="reset" value="Reset" name="Reset" class="buttons">
+  </form>
+</body>
+</html>
